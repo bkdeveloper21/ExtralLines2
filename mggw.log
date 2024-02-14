@@ -1,0 +1,1008 @@
+﻿         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\whereCmd.bat TortoiseGitProc.exe C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        where TortoiseGitProc.exe  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:27:41 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\whereCmd.bat git.exe C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        where git.exe  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        D:\Git\cmd\git.exe
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\CheckifFileIgnored.bat "myGitlog.log" C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe check-ignore -v "myGitlog.log"  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:27:42 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\GetGitRepoPath.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe rev-parse --show-toplevel  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        D:/MagicXPA/XPA410/Projects/Extra_Line2
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\CheckifFileIgnored.bat "MagicIDs/branchIDs*.*" C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe check-ignore -v "MagicIDs/branchIDs*.*"  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:27:43 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\whereCmd.bat TortoiseGitProc.exe C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        where TortoiseGitProc.exe  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\GetMergeDriver.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe config --get merge.mgmerge.driver  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\GetUserEmailid.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+12:27:44git.exe config user.email  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        balajikaragir07@gmail.com
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\GetGitRepoPath.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe rev-parse --show-toplevel  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        D:/MagicXPA/XPA410/Projects/Extra_Line2
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\CheckoutFileWithoutSwitchingBranch.bat magicids "D:/MagicXPA/XPA410/Projects/Extra_Line2\MagicIDs\devids.txt" C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe checkout magicids -- "D:/MagicXPA/XPA410/Projects/Extra_Line2\MagicIDs\devids.txt"  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        ***ERROR***<pID:20948>: 
+        fatal: invalid reference: magicids
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\GetGitRemote.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:27:45 
+        [GIT COMMAND <pID:20948>]: 
+        git.exe remote  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        origin
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:27:46 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\GetGitRepoPath.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:27:47 
+        [GIT COMMAND <pID:20948>]: 
+        git.exe rev-parse --show-toplevel  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        D:/MagicXPA/XPA410/Projects/Extra_Line2
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\StashPushShelvest.bat "devshelveset" C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe stash push -m "devshelveset"  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+12:27:48[RESULT <pID:20948>]: 
+        No local changes to save
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+        GetDevIdAndBranchId() : Checkout from branch (master)
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\CheckoutBranch.bat magicids C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe checkout magicids  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        ***ERROR***<pID:20948>: 
+        error: pathspec 'magicids' did not match any file(s) known to git
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\CheckoutOrphan.bat magicids C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe checkout --orphan magicids  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        ***ERROR***<pID:20948>: 
+        Switched to a new branch 'magicids'
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\PullRemoteBranch.bat origin magicids C:\Users\balajik\AppData\Local\Temp\ 20948
+12:27:50 
+        [GIT COMMAND <pID:20948>]: 
+        git.exe pull origin magicids  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        ***ERROR***<pID:20948>: 
+        fatal: couldn't find remote ref magicids
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\GetUsername.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe config user.name  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        bkdeveloper21
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\GetUserEmailid.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe config user.email  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+12:27:51[RESULT <pID:20948>]: 
+        balajikaragir07@gmail.com
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+        GetDevId() : Developer Id file created 
+        GetDevId() : New Developer ID is assigned and commited to Developer IDs file 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\PushBranchToRemote.bat origin magicids C:\Users\balajik\AppData\Local\Temp\ 20948
+12:27:54 
+        [GIT COMMAND <pID:20948>]: 
+        git.exe push origin magicids  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        ***ERROR***<pID:20948>: 
+        To https://github.com/bkdeveloper21/ExtralLines2.git
+ * [new branch]      magicids -> magicids
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+        GetDevIdAndBranchId() : Developer ID returned (0) 
+        GetDevIdAndBranchId() : Checkout back to branch (master)
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\CheckoutBranch.bat master C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe checkout master  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        ***ERROR***<pID:20948>: 
+        Switched to branch 'master'
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\StashList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+12:27:55git.exe stash list  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\CheckoutFileWithoutSwitchingBranch.bat magicids "D:/MagicXPA/XPA410/Projects/Extra_Line2\MagicIDs\devids.txt" C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe checkout magicids -- "D:/MagicXPA/XPA410/Projects/Extra_Line2\MagicIDs\devids.txt"  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\RestoreStagedFile.bat "D:/MagicXPA/XPA410/Projects/Extra_Line2\MagicIDs\devids.txt" C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe restore --staged "D:/MagicXPA/XPA410/Projects/Extra_Line2\MagicIDs\devids.txt"  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+        GetBranchId() : Branch Id file created 
+        GetDevIdAndBranchId() : Branch ID returned (0) 
+12:28:01 
+        [COMMAND <pID:20948>]: 
+12:28:02D:\MagicXPA\XPA410\GITScripts\SetMgmergeName.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe config merge.mgmerge.name "Merge Magic xpa source files"  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\SetMgmergeDriver.bat "D:/MagicXPA/XPA410/Magic Compare 4/merge.exe" C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe config merge.mgmerge.driver "'D:/MagicXPA/XPA410/Magic Compare 4/merge.exe' %B %A %O %A -merge_changes -captions='Merge_from,Merge_to,Base,Merged'"  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\ConfigMergeBinary.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe config merge.mgmerge.recursive binary  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+12:28:03 Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:28:04 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:28:05 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:28:10 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:28:16 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+12:28:17git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:28:23 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:28:29 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:28:35 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:28:40 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:28:46 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:28:47 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:28:52 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:28:57 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:28:58 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:29:03 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:29:08 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+12:29:09 
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:29:14 
+        [COMMAND <pID:20948>]: 
+12:29:15D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:29:20 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:29:26 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:29:27 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:29:32 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:29:37 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+12:29:37[GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:29:44 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:29:49 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+12:29:50[RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:29:55 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+12:29:56 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:30:01 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:30:07 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:30:13 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:30:18 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:30:24 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:30:25 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:30:30 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:30:31 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:30:37 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:30:38 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:30:43 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:30:44 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:30:49 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:30:55 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:31:01 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:31:07 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:31:13 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:31:18 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:31:19 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:31:24 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:31:25 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:31:31 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:31:36 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+12:31:37git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:31:43 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:31:50 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:31:56 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:31:57 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:32:02 
+        [COMMAND <pID:20948>]: 
+12:32:03D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:32:08 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:32:14 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:32:19 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:32:20 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:32:25 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:32:30 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+12:32:31master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:32:37 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:32:42 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:32:48 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:32:49 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:32:55 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:33:00 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:33:05 
+        [COMMAND <pID:20948>]: 
+12:33:06D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:33:12 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:33:18 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:33:19 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:33:24 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:33:30 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+12:33:31master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:33:37 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:33:42 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:33:48 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:33:49 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:33:54 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:34:00 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:34:01 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:34:07 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:34:12 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+12:34:13 
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:34:19 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:34:25 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+12:34:26git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:34:31 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:34:36 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:34:43 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:34:49 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:34:54 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:35:01 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:35:15 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:35:20 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\StatusPorcelain.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git.exe status --porcelain -uno  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:35:26 
+        [COMMAND <pID:20948>]: 
+        D:\MagicXPA\XPA410\GITScripts\BranchList.bat C:\Users\balajik\AppData\Local\Temp\ 20948
+         
+        [GIT COMMAND <pID:20948>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\balajik\AppData\Local\Temp\\git_answer_20948.txt 2>C:\Users\balajik\AppData\Local\Temp\\git_error_20948.txt
+         
+        [RESULT <pID:20948>]: 
+        master
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
